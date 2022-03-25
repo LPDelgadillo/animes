@@ -1,0 +1,14 @@
+.DivCartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    width: 350px;
+    margin: 50px 20px 30px;
+    background-color: beige;
+    box-shadow: 2px 0px 26px 1px black;
+}
+.H4Style{
+    
+}
