@@ -26,7 +26,13 @@ export const Listar = () => {
 const DivFlex = styled.div`
   display: flex;
   max-width: 90vw;
-
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`;
+const BtnStyled = styled.button`
+  background: red;
+  color: white;
 `
 
 
@@ -77,7 +83,7 @@ const DivFlex = styled.div`
           <H4Style>Recompensa {cart.recompensa}</H4Style>
           <H5Styled>Apodo: {cart.apodo}</H5Styled>
           <H5Styled>Posicion: {cart.posicion}</H5Styled>
-          <button onClick={() => deleteData(cart.id)}>Eliminar</button>
+          <BtnStyled onClick={() => deleteData(cart.id)}>Eliminar</BtnStyled>
         </DivCartas>
       ))}
     </DivFlex>
