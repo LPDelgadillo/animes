@@ -4,6 +4,7 @@ import styled from "styled-components";
 const NavBar = () => {
   const Header = styled.header`
     background-color:grey;
+    height:100px;
   `;
 
 

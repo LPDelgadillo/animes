@@ -2,13 +2,14 @@
 // import Cards from "../components/Cards";
 import { Form } from "../components/Form";
 import { Listar } from "../components/Listar";
+import NavBar from "../components/NavBar";
 
 // import NavBar from "../components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/> */}
+      <NavBar/>
       {/* <Cards/> */}
       <Listar/>
       <Form/>
